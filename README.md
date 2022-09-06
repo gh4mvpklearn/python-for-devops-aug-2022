@@ -9,3 +9,14 @@ From Zero Repository for doing Python DevOps work
 
 ## Containerized Continous delivery
 
+### Build the python project scaffold
+
+* Makefile
+* requirements.txt
+* test_library
+* python_library
+* Dockerfile
+* Command-line tool
+* Microservice
+
+
