@@ -36,9 +36,9 @@ jobs:
           echo test, and deploy your project.
           
       - name: Python lint
-        run:  |
+        run: |
           make lint
       - name: Python format
-        run:  |
+        run: |
           make format
         
