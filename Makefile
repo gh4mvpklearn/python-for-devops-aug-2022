@@ -7,3 +7,5 @@ lint:
 	
 format:
 	black *.py
+test:
+	python -m pytest -vvv cov=devopslib test_*.py
