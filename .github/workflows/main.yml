@@ -44,4 +44,8 @@ jobs:
       - name: Python format
         run: |
           make format
+      - name: Python test
+        run: |
+          make test
+          
         
