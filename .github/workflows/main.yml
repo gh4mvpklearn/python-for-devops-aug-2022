@@ -34,7 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
+      #My user space code
+      - name: Install Python dependencies
+        run: |
+          make install
       - name: Python lint
         run: |
           make lint
